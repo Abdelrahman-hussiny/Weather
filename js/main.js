@@ -243,7 +243,7 @@ getData()
 // ============================================================================
 
 
-    searchBar.addEventListener("KeyUp", function() {
+    searchBar.addEventListener("keyup", function() {
     currentCity = searchBar.value;
     getData2()
     getData()
